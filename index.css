@@ -260,3 +260,265 @@ div #btnEnvoyer:hover{
 }
 
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+header {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    background: #ffffff;
+}
+
+.fixed-bg {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    height: 100vh;
+}
+
+.fixed-bg h1 {
+    font-size: 2.3rem;
+    color: white;
+    margin: auto;
+}
+
+.bg-1 {
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 30%, #06071e 100%), url("Images/Maneskin black n white.png");
+}
+
+.bg-2 {
+    background-image: linear-gradient(-90deg, rgba(255, 255, 255, 0.1) 30%, #d93605 100%), url("Images/Teddy swims.png");
+}
+
+.bg-3 {
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 30%, #020302 100%), url("Images/Metallica.jpg");
+}
+
+.bg-4 {
+    background-image: linear-gradient(-90deg, rgba(255, 255, 255, 0.1) 30%, #310707 100%), url("Images/The Weeknd.png");
+}
+.bg-5 {
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 30%, #f89f05 100%), url("Images/La soupe aux choux.png");
+}
+
+.color-1,
+.color-2,
+.color-3,
+.color-4, 
+.color-5 {
+    display: flex;
+    height: 100vh;
+    color: white;
+}
+
+.color-1 {
+    background-color: #06071e;
+}
+
+.color-2 {
+    background-color: #d93605;
+}
+
+.color-3 {
+    background-color: #020302;
+}
+
+.color-4 {
+    background-color: #310707;
+}
+.color-5 {
+    background-color: #f89f05;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+p {
+    line-height: 1.5;
+    
+}
+
+
+footer p {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 13px;
+}
+footer h2{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+
+
+audio {
+    display: none;
+}
+
+button {
+    font-size: 3rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding-right: 50px;
+}
+button:hover {
+    transform: scale(1.1); /* Agrandit légèrement l'image au survol */
+    transition: transform 0.3s ease;
+}
+
+button.play {
+    color: green;
+}
+
+
+.logo-image {
+    transition: transform 0.3s ease;   
+}
+
+.logo-image:hover {
+    transform: scale(1.1); /* Agrandit légèrement l'image au survol */
+}
+
+
+
+
+/*CSS formulaire*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+}
+.cta-button {
+    position: fixed;
+    bottom: 100px; 
+    right: 100px; 
+    z-index: 1000; /* Assure qu'il reste au-dessus d'autres éléments */
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.cta-button:hover{
+    text-decoration: underline;
+    background-color: white;
+    border: 2px solid rgba(157, 37, 37, 0.2);
+    color: black;
+    
+}   
+#popup-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(2px);
+    z-index: 50;
+    display: none;
+}
+
+#popup-overlay.open{
+    display: block !important;
+}
+.popup-content{
+    max-width: 600px;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: rgb(181, 156, 156);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+label{
+    font-size: 15px;
+}
+.limite{
+    font-size: 13px;
+    color: #333;
+}
+.popup-exit{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 8px;
+    border-radius: 5px;
+    transition: 0.3s
+}
+.popup-exit:hover{
+    background-color: #3d3536;
+}
+
+legend h1{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+fieldset{
+    padding: 15px;
+    border-radius: 15px;
+}
+fieldset p{
+    font-size: 13px;
+    padding-bottom: 20px;
+
+}
+.star-required{
+    color: red;
+    padding-bottom: 10px;
+}
+div #btnEnvoyer{
+    width: 90%; 
+    margin: 20px auto; /* Ajout d'espace au-dessus et au-dessous */
+    display: block; /* Centrer le bouton si nécessaire */
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 25px;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 250, 0.7);
+    color: black;
+    transition: 0.3s;
+    font-weight: bold;
+    cursor: pointer;
+}
+div #btnEnvoyer:hover{
+    text-decoration: underline;
+    background-color: white;
+    border: 2px solid rgba(255, 255, 250, 0.7);
+    
+}
+
+
