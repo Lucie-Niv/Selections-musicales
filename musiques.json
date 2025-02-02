@@ -1,0 +1,32 @@
+[
+    { 
+        "musique": "The loneliest - Maneskin", 
+        "fichierAudio": "Audio/Extrait - The loneliest.mp3", 
+        "descriptionMusiques": "La première fois que j'ai entendu cette chanson, je l'ai réécoutée cinq fois d'affilée tellement je l'ai aimée. Je trouve qu'elle transmet énormément d'émotions : à la fois de la tristesse, de la colère et de la force. Bien sûr, ce ressenti est propre à chacun, mais je vous laisse écouter pour vous faire votre propre idée !",
+        "spotifyLink": "https://open.spotify.com/intl-fr/track/1Ame8XTX6QHY0l0ahqUhgv?si=50ca9dbdae2d43b1"
+    },
+    { 
+        "musique": "Lose control - Teddy Swims", 
+        "fichierAudio": "Audio/Extrait - Lose Control (Lyrics).mp3" , 
+        "descriptionMusiques": "J'aime particulièrement ce morceau pour son ambiance agréable. C'est une musique entraînante, dans laquelle le chanteur fait de superbes vocalises.  ",
+        "spotifyLink": "https://open.spotify.com/intl-fr/track/6usohdchdzW9oML7VC4Uhk?si=01a809b0761d44a3"
+    },
+    { 
+        "musique": "Nothing else matters - Metallica", 
+        "fichierAudio": "Audio/Extrait - Nothing Else Matters (Official Music Video).mp3" , 
+        "descriptionMusiques": "Cette chanson, si connue, a été reprise dans des films comme Jungle Cruise. Elle fait partie du célèbre Black Album, sorti en 1991. C'est une chanson qui allie à la fois de belles paroles et une maîtrise exceptionnelle des instruments. Je vous invite à écouter un extrait du solo de guitare pour comprendre de quoi je parle...",
+        "spotifyLink": "https://open.spotify.com/intl-fr/track/0nLiqZ6A27jJri2VCalIUs?si=a78d025968c14628"
+    },
+    { 
+        "musique": "Save your tears - The weeknd", 
+        "fichierAudio": "Audio/Extrait - Save Your Tears (Official Music Video).mp3" , 
+        "descriptionMusiques": "Selon moi, c'est l'une des meilleures chansons de l'album After Hours de The Weeknd ! Bien que la reprise avec Ariana Grande soit impressionnante, l'originale est tout aussi belle. Je l'ai beaucoup écoutée avec ma famille.",
+        "spotifyLink": "https://open.spotify.com/intl-fr/track/5QO79kh1waicV47BqGRL3g?si=5cf3f10d216443e7"
+    },
+    { 
+        "musique": "Générique de La soupe aux choux - Raymond Lefèvre", 
+        "fichierAudio": "Audio/Extrait - La soupe aux Choux (Générique).mp3" , 
+        "descriptionMusiques": "Cette musique est plutôt originale : elle apparaît dans le générique de fin du film La Soupe aux Choux. Elle a un rythme rapide et entraînant que j'aime beaucoup. Sans compter qu'elle s'accorde vraiment très bien avec le film, sorti en 1981, avec notamment Louis de Funès. C'est une musique que j'écoutais beaucoup quand j'étais petite.",
+        "spotifyLink": "https://open.spotify.com/intl-fr/track/6fZSU4LCrgBQq7QIRDHlg7?si=98ea59b2e867426f"
+    }
+]
